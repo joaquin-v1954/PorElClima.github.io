@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Video educativo y guía de recomendaciones prácticas para combatir el cambio climático (ODS 13).">
+  <title>Acción por el Clima | Video y guía</title>
+<link rel="icon" type="image/jpeg" href="imagenes/logo.jpg">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- Encabezado con menú hamburguesa compatible con js/menu.js -->
+  <header class="cabecera" id="inicio">
+    <div class="contenedor barra">
+      <a class="marca" href="index.html">
+        <img src="imagenes/logo.jpg" alt="Logotipo del proyecto Acción por el Clima" width="42">
+        <span>Acción <strong>por el Clima</strong></span>
+      </a>
+
+      <button class="boton-hamburguesa" type="button" aria-expanded="false" aria-controls="navegacion">
+        <span class="icono-hamburguesa" aria-hidden="true"></span>
+        <span>Menú</span>
+      </button>
+
+      <nav id="navegacion" aria-label="Menú principal">
+        <ul class="menu">
+          <li><a href="index.html#inicio">Inicio</a></li>
+          <li><a href="index.html#nosotros">Nosotros</a></li>
+          <li><a href="index.html#proyectos">Proyectos</a></li>
+          <li><a href="recursos.html" aria-current="page">Video y guía</a></li>
+          <li>
+            <details class="desplegable">
+              <summary>Participar</summary>
+              <ul class="submenu">
+                <li><a href="calcular.html">Calculadora ODS 13</a></li>
+                <li><a href="index.html#solicitud">Solicitud ambiental</a></li>
+                <li><a href="index.html#contacto">Contáctanos</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- Sección 1: Video educativo usando la clase .video de tu CSS -->
+    <section class="seccion">
+      <div class="contenedor">
+        <p class="etiqueta">ODS 13 · Material audiovisual</p>
+        <h1>Video y guía de acción climática</h1>
+        <p>Conoce cómo nuestras actividades cotidianas influyen en el calentamiento global y qué medidas concretas puedes aplicar en tu distrito, hogar y centro de estudios.</p>
+
+        <div class="tarjeta" style="margin-top: 1.5rem;">
+          <h2>¿Qué es el cambio climático y cómo podemos actuar?</h2>
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/8q7_aV8eLUE"
+            title="Video educativo sobre el cambio climático y acciones sostenibles"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <p class="nota" style="margin-top: 0.8rem;">
+            ¿No carga el reproductor? Si abriste el archivo directamente desde tu carpeta, usa <strong>Live Server</strong> o míralo en
+            <a href="https://www.youtube.com/watch?v=8q7_aV8eLUE" target="_blank" rel="noopener noreferrer">YouTube</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 2: Guía de recomendaciones usando .dos-columnas y .tarjeta -->
+    <section class="seccion fondo" id="guia">
+      <div class="contenedor">
+        <p class="etiqueta">Guía práctica · Recomendaciones</p>
+        <h2>Acciones diarias para cuidar tu entorno</h2>
+        <p>Pequeños cambios en nuestra rutina diaria generan un impacto positivo cuando se replican en toda la comunidad.</p>
+
+        <div class="dos-columnas" style="margin-top: 1.8rem; align-items: stretch;">
+          <article class="tarjeta">
+            <span class="numero">01 · Residuos</span>
+            <h3>Gestión de residuos y reciclaje</h3>
+            <ol>
+              <li>Separa los residuos en tachos diferenciados: orgánicos, reciclables (papel, cartón, plástico, vidrio) y no aprovechables.</li>
+              <li>Evita bolsas y envases plásticos de un solo uso; lleva siempre una bolsa de tela y botella reutilizable.</li>
+              <li>Nunca quemes basura ni hojas secas, ya que libera gases tóxicos y empeora la calidad del aire.</li>
+            </ol>
+          </article>
+
+          <article class="tarjeta">
+            <span class="numero">02 · Movilidad</span>
+            <h3>Transporte sostenible</h3>
+            <ol>
+              <li>Camina o utiliza bicicleta para trayectos cortos dentro de tu distrito.</li>
+              <li>Prioriza el transporte público frente al uso individual del automóvil.</li>
+              <li>Comparte viajes con compañeros de estudio o trabajo cuando se dirijan a la misma zona.</li>
+            </ol>
+          </article>
+
+          <article class="tarjeta">
+            <span class="numero">03 · Energía y agua</span>
+            <h3>Ahorro en el hogar</h3>
+            <ol>
+              <li>Desconecta cargadores y equipos electrónicos que no estés utilizando para evitar el consumo fantasma.</li>
+              <li>Aprovecha la luz natural durante el día y utiliza focos LED de bajo consumo.</li>
+              <li>Cierra el caño mientras te cepillas los dientes o enjabonas los platos, y reporta fugas de agua.</li>
+            </ol>
+          </article>
+
+          <article class="tarjeta">
+            <span class="numero">04 · Áreas verdes</span>
+            <h3>Cuidado de parques y jardines</h3>
+            <ol>
+              <li>Participa en jornadas vecinales de limpieza, arborización y mantenimiento de parques.</li>
+              <li>Respeta las zonas de jardín y no arrojes desperdicios en la vía pública.</li>
+              <li>Promueve la siembra de plantas nativas o de bajo consumo de agua en balcones y jardines.</li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 3: Llamado a la acción hacia calcular.html y solicitud -->
+    <section class="seccion">
+      <div class="contenedor dos-columnas">
+        <div>
+          <p class="etiqueta">Ponlo en práctica</p>
+          <h2>Evalúa tu impacto o simula una mejora</h2>
+          <p>Ahora que conoces las recomendaciones principales, calcula tu huella de carbono o simula una solicitud de mejora ambiental para tu distrito.</p>
+          <p style="display: flex; gap: 0.8rem; flex-wrap: wrap; margin-top: 1.2rem;">
+            <a class="boton" href="calcular.html">Ir a la calculadora</a>
+            <a class="boton btn-secundario" href="index.html#solicitud">Simular solicitud ambiental</a>
+          </p>
+        </div>
+        <div class="tarjeta">
+          <h3>Sobre esta guía</h3>
+          <p>Este material forma parte del proyecto académico <strong>Acción por el Clima (ODS 13)</strong>. Las recomendaciones buscan fomentar la participación ciudadana y hábitos responsables en el entorno local.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página compatible con .pie y .redes de tu CSS -->
+  <footer class="pie">
+    <div class="contenedor">
+      <p><strong>PorElClima</strong> · Combatiendo el cambio climático (ODS 13)</p>
+      <p>Contacto de ejemplo: PorElClima@gmail.org</p>
+      <nav class="redes" aria-label="Redes sociales de referencia">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <img src="iconos/facebook.svg" alt="" width="24" height="24">Facebook
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <img src="iconos/instagram.svg" alt="" width="24" height="24">Instagram
+        </a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+          <img src="iconos/youtube.svg" alt="" width="24" height="24">YouTube
+        </a>
+      </nav>
+      <p>© 2026 PorElClima · Proyecto académico · <a href="FUENTES.txt">Créditos de recursos</a></p>
+    </div>
+  </footer>
+
+  <script src="js/menu.js"></script>
+</body>
+
+</html>
